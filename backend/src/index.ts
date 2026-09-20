@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
-import { connectDatabase } from './config/database';
+import { connectDatabase } from './config/database.js';
 import app from './app.js';
 
 
